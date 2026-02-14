@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY3")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY1")
 
 system_prompt = ChatPromptTemplate.from_messages([
     ("system", """
